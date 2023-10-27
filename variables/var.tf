@@ -1,9 +1,10 @@
-variable "sample" {
+###########plain type variables
+variable "plain" {
   default = "Mango"
 }
 
-output "sample2" {
-  value = var.sample
+output "plain_output" {
+  value = var.plain
 }
 
 

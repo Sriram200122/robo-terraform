@@ -34,5 +34,5 @@ variable "map" {
 }
 
 output "map_output" {
-  value = var.map["cloud"]
+  value = var.map["CLOUD"]
 }

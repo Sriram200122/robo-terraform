@@ -15,7 +15,7 @@ variable "list" {
 }
 
 output "list_output" {
-  value = var.list[2]
+  value = var.list[1]
 }
 
 

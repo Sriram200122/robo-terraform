@@ -11,11 +11,11 @@ output "plain_output" {
 
 ###########list type variables
 variable "list" {
-  default =["AWS","DEVOPS","CLOUD"]
+  default =["AWS","CLOUD","DEVOPS"]
 }
 
 output "list_output" {
-  value = var.list[1]
+  value = var.list[2]
 }
 
 

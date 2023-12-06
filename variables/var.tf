@@ -15,7 +15,7 @@ variable "list" {
 }
 
 output "list_output" {
-  value = var.list[2]
+  value = var.list[0]
 }
 
 
@@ -34,5 +34,5 @@ variable "map" {
 }
 
 output "map_output" {
-  value = var.map["devops"]
+  value = var.map["AWS"]
 }

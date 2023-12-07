@@ -12,3 +12,4 @@ module "s3" {
   source = "./ec2"
   name   = "catalogue"
 }
+

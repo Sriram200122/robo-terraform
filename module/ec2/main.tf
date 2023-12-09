@@ -55,7 +55,7 @@ resource "aws_security_group" "ssr" {
 }
 
 resource "aws_route53_record" "www" {
-  zone_id = "Z0405916ITMIXMEIEEHQ"
+  zone_id = "Z01768852GJ4FV6EFJ9QG"
   name    = "${var.name}-dev"
   type    = "A"
   ttl     = 300

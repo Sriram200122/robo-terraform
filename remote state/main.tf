@@ -1,10 +1,10 @@
 terraform {
   backend "s3" {
-    bucket = "srirambucket-terraform"
+    bucket = "srirambucketterraform"
     key = "sriram/sample"
     region = "us-east-1"
   }
 }
 output "sample" {
-  value = "Banana is a fruit"
+  value = "Apple is a fruit"
 }

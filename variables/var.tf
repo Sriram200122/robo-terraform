@@ -36,3 +36,4 @@ variable "map" {
 output "map_output" {
   value = var.map["AWS"]
 }
+

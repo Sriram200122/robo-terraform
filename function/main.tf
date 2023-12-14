@@ -24,6 +24,7 @@ output "s4" {
   value = length(var.list)
 }
 
+
 #############it loops and answer is banana ##########
 output "s5" {
   value = element(var.list,3)

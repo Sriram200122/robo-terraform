@@ -6,5 +6,5 @@ terraform {
   }
 }
 output "sample" {
-  value = "Apple is a fruit"
+  value = "Grapes is a fruit"
 }

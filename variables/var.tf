@@ -1,6 +1,6 @@
 ###########plain type variables
 variable "plain" {
-  default = "Mango"
+  default = "Grapes"
 }
 
 output "plain_output" {
@@ -23,8 +23,8 @@ output "list_output" {
 variable "map" {
   default = {
     devops = {
-      Time= "11AM"
-      Duration= "100days"
+      Time= "10AM"
+      Duration= "90days"
     }
     AWS={
       Time= "12AM"

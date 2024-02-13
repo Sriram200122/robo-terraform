@@ -21,7 +21,7 @@ resource "null_resource" "ansible" {
     }
     inline = [
       "sudo labauto ansible",
-      "ansible-pull -i localhost, -U https://github.com/Suryakumari76k/robo-ansible.git roboshop.yml -e env=dev -e role_name=${var.name}"
+      "ansible-pull -i localhost, -U https://github.com/Sriram200122/robo-ansible.git roboshop.yml -e env=dev -e role_name=${var.name}"
     ]
   }
 }
